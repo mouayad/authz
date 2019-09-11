@@ -65,6 +65,8 @@ var (
 	ActionDockerInfo = "docker_info"
 	// ActionDockerPing describes https://docs.docker.com/reference/api/docker_remote_api_v1.21/#ping-the-docker-server
 	ActionDockerPing = "docker_ping"
+	// ActionDockerSession describes https://docs.docker.com/engine/api/v1.40/#operation/Session
+	ActionDockerSession = "docker_session"
 	// ActionDockerVersion describes https://docs.docker.com/reference/api/docker_remote_api_v1.20/#show-the-docker-version-information
 	ActionDockerVersion = "docker_version"
 	// ActionImageArchive describes https://docs.docker.com/reference/api/docker_remote_api_v1.21/#get-a-tarball-containing-all-images
