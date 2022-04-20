@@ -71,6 +71,8 @@ var (
 	ActionDockerVersion = "docker_version"
 	// ActionImageArchive describes https://docs.docker.com/reference/api/docker_remote_api_v1.21/#get-a-tarball-containing-all-images
 	ActionImageArchive = "images_archive"
+	//  ActionImageSave describes https://docs.docker.com/engine/api/v1.21/#get-a-tarball-containing-all-images
+	ActionImageSave = "images_save"
 	// ActionImageBuild describes https://docs.docker.com/reference/api/docker_remote_api_v1.21/#build-image-from-a-dockerfile
 	ActionImageBuild = "image_build"
 	// ActionImageCreate describes https://docs.docker.com/engine/reference/api/docker_remote_api_v1.21/#create-an-image

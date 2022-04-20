@@ -72,6 +72,8 @@ var routes = []route{
 	{pattern: "/containers/create", method: "POST", action: ActionContainerCreate},
 	// https://docs.docker.com/reference/api/docker_remote_api_v1.21/#get-a-tarball-containing-all-images
 	{pattern: "/images/.+./get", method: "GET", action: ActionImageArchive},
+	// https://docs.docker.com/engine/api/v1.21/#get-a-tarball-containing-all-images
+	{pattern: "/images/get", method: "GET", action: ActionImageSave},
 	// https://docs.docker.com/reference/api/docker_remote_api_v1.21/#search-images
 	{pattern: "/images/search", method: "GET", action: ActionImagesSearch},
 	// https://docs.docker.com/reference/api/docker_remote_api_v1.21/#tag-an-image-into-a-repository
